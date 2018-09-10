@@ -95,7 +95,8 @@ init -1500:
 init -1500 python:
 
     # If true, the console is enabled despite config.developer being False.
-    config.console = True    config.console_history_size = 100
+    config.console = True    
+    config.console_history_size = 100
     config.console_commands = { }
 
     # If not None, this is called with the command that's about to be run
